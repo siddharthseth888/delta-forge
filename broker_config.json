@@ -1,0 +1,13 @@
+{
+  "_comment": "Transaction cost configuration. Edit values to match your broker.",
+  "_comment2": "Any missing or null field defaults to 0. All rates are decimal (e.g. 0.0625% = 0.000625).",
+
+  "broker_name": "Zerodha",
+
+  "brokerage_flat_inr": 20.0,
+  "stt_rate_sell": 0.000625,
+  "nse_txn_rate": 0.00053,
+  "sebi_rate": 0.000001,
+  "gst_rate": 0.18,
+  "stamp_duty_rate": 0.00003
+}
